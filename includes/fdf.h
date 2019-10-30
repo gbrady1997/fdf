@@ -21,8 +21,8 @@
 #include <math.h>
 
 #define RED 0xE85E68
-#define WIN_HEIGHT 1000
-#define WIN_WIDTH 1000
+#define WIN_HEIGHT 200
+#define WIN_WIDTH 200
 
 typedef struct	s_window
 {
@@ -39,8 +39,8 @@ typedef struct	s_vertex
 
 int					main(int argc, char **argv);
 void      	create_window(void);
-t_vertex  	*allocate_vertex_buffer(t_vertex *vertex_buffer, int fd);
-t_vertex 		*initalize_vertex_buffer(t_vertex *vertex_buffer, int fd);
+
+t_vertex	*assign_verticies(t_vertex *verticies);
 
 
 #endif

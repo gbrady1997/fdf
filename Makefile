@@ -13,10 +13,9 @@
 NAME	= fdf
 
 # src / obj files
-SRC		= main.c \
-				window.c \
-				allocate_vertex_buffer.c \
-				initalize_vertex_buffer.c \
+SRC		= 	main.c \
+			window.c \
+			assign_verticies.c \
 
 OBJ		= $(addprefix $(OBJDIR),$(SRC:.c=.o))
 
